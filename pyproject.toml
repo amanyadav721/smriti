@@ -4,17 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "smriti-memory"
-version = "0.1.0"
+version = "0.1.1"
 description = "An intelligent memory layer for AI applications with RAG capabilities"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "Aman Kumar", email = "ad721603@gmail.com"},
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "Aman Kumar", email = "ad721603@gmail.com"},
 ]
-keywords = ["ai", "memory", "rag", "vector-database", "pinecone", "llm"]
+keywords = ["ai", "memory", "rag", "vector-database", "pinecone", "llm", "groq", "gemini"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -30,7 +30,7 @@ classifiers = [
 ]
 requires-python = ">=3.8"
 dependencies = [
-    "pinecone-client>=2.0.0",
+    "pinecone>=2.0.0",
     "langchain>=0.3.0",
     "langchain-groq>=0.3.0",
     "langchain-google-genai>=2.0.0",
@@ -58,10 +58,10 @@ docs = [
 smriti = "smriti.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/smriti-memory"
-Documentation = "https://smriti-memory.readthedocs.io"
-Repository = "https://github.com/yourusername/smriti-memory"
-"Bug Tracker" = "https://github.com/yourusername/smriti-memory/issues"
+Homepage = "https://github.com/amanyadav721/smriti"
+Documentation = "https://github.com/amanyadav721/smriti#readme"
+Repository = "https://github.com/amanyadav721/smriti"
+"Bug Tracker" = "https://github.com/amanyadav721/smriti/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
